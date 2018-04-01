@@ -12,4 +12,8 @@ class App < Sinatra::Base
     (@number.to_i * @number.to_i).to_s
   end
 
+  get '/say/:number/:phrase' do 
+    
+  end
+
 end
