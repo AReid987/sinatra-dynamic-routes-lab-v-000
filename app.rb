@@ -18,7 +18,7 @@ class App < Sinatra::Base
 
     @phrase * @number.to_i
 
-    binding.pry
+    #binding.pry
   end
 
 end
