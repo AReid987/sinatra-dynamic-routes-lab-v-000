@@ -36,8 +36,8 @@ class App < Sinatra::Base
 
     if params[:operation] == "add"
       @number1.to_i + @number2.to_i
-      end
-    binding.pry 
+    end
+    #binding.pry
   end
 
 end
