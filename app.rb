@@ -40,6 +40,8 @@ class App < Sinatra::Base
       (@number1.to_i - @number2.to_i).to_s
     elsif params[:operation] == "multiply"
       (@number1.to_i * @number2.to_i).to_s
+    elsif params[:operation] == "divide"
+      (@number1.to_i / @number2.to_i).to_s
     end
     #binding.pry
   end
