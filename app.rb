@@ -19,7 +19,7 @@ class App < Sinatra::Base
     @number.to_i.times do
       puts @phrase 
     end
-    binding.pry 
+    binding.pry
   end
 
 end
